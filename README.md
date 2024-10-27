@@ -12,12 +12,16 @@
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_app_sg"></a> [app\_sg](#module\_app\_sg) | terraform-aws-modules/security-group/aws | n/a |
+| <a name="module_ec2_app_instance"></a> [ec2\_app\_instance](#module\_ec2\_app\_instance) | terraform-aws-modules/ec2-instance/aws | ~> 3.0 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
+| [aws_eip.ec2_app_instance_ip](https://registry.terraform.io/providers/hashicorp/aws/5.73.0/docs/resources/eip) | resource |
 | [aws_eip.nat_gw_ip](https://registry.terraform.io/providers/hashicorp/aws/5.73.0/docs/resources/eip) | resource |
 | [aws_internet_gateway.gw](https://registry.terraform.io/providers/hashicorp/aws/5.73.0/docs/resources/internet_gateway) | resource |
 | [aws_nat_gateway.natgw_1a](https://registry.terraform.io/providers/hashicorp/aws/5.73.0/docs/resources/nat_gateway) | resource |
@@ -33,7 +37,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | Nome da VPC. | `string` | `"vpc_clc12_terraform"` | no |
+| <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | Nome da VPC. | `string` | `"vpc_clc12_terraform_iac"` | no |
 
 ## Outputs
 
