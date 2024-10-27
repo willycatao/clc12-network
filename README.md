@@ -33,7 +33,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | n/a | `string` | `"vpc_clc12_terraform"` | no |
+| <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | Nome da VPC. | `string` | `"vpc_clc12_terraform"` | no |
 
 ## Outputs
 
